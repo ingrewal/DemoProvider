@@ -20,7 +20,7 @@ try {
   notify("Error ${err}")
   currentBuild.result = 'Failure'
 }
-  
+} 
   def notify(status){
     emailext (
       to: "grewal.inder@gmail.com",
