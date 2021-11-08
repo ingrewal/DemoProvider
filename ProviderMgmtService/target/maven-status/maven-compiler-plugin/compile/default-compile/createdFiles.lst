@@ -1,0 +1,6 @@
+gov\mes\gw\si\prov\model\ProviderInformation.class
+gov\mes\gw\si\prov\ProviderMgmtServiceApplication.class
+gov\mes\gw\si\prov\service\ProviderMgmtService.class
+gov\mes\gw\si\prov\service\ProviderRepository.class
+gov\mes\gw\si\prov\controller\ProviderMgmtController.class
+gov\mes\gw\si\prov\controller\SpringFoxConfig.class
