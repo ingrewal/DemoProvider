@@ -1,6 +1,6 @@
 node {
   def app
-  def mvnHome = tool name: 'maven3', type: 'maven'
+  // def mvnHome = tool name: 'maven3', type: 'maven'
   def mvnCMD = "C://Apps/apache-maven-3.6.3/bin/mvn"
 
 try {
