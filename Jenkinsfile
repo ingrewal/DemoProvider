@@ -17,7 +17,7 @@ try {
   
   notify('Success')
 } catch(err) {
-  notify("Error $(err}")
+  notify("Error ${err}")
   currentBuild.result = 'Failure'
 }
   
