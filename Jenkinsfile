@@ -5,7 +5,7 @@ node {
 
 try {
  stage 'SCM Checkout'
-  git branch: 'master', credentialsId: '9c27a133-af3d-4387-b756-63f044efe811', 'url: 'https://github.com/ingrewal/DemoProvider/'
+  git branch: 'master', credentialsId: '9c27a133-af3d-4387-b756-63f044efe811', url: 'https://github.com/ingrewal/DemoProvider/'
     
  stage 'Maven Build'
   sh  "${mvnCM} -B -DskipTests -f pom.xml clean package"
