@@ -26,5 +26,5 @@ try {
       to: "grewal.inder@gmail.com",
       subject: "${status}: Jenkins Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
       body: """<p>${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>""",
-      }
+      )
       }
